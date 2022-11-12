@@ -94,8 +94,7 @@ var requestHandler = function(request, response) {
         exampleData.unshift(newMessage);
         console.log(exampleData);
         response.writeHead(statusCode, headers);
-        // response.end();
-
+        response.end();
       });
 
       // console.log(request);
